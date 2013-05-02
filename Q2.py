@@ -43,7 +43,7 @@ try:
     while num < NUM_BOWLERS:
         # generate random bowler ID from 1 to 9999
         bowler = random.randint(1, 9999)
-        # zero pad from 0000 to 9999
+        # zero pad from 0001 to 9999
         bowler = str(bowler).zfill(4)
         # get full bowler ID with check digit
         bowler = UpdateID(bowler)
