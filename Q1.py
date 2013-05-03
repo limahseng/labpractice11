@@ -86,11 +86,11 @@ while (num < MAX_ENTRIES) and (another.lower() == 'y'):
     bowler = ValidateBowler()
     # check if better or equals highest score
     if score >= highest_score:
-        # update highest score
-        highest_score = score
         # if beats previous high score, clear previous bowler ID(s)
         if score > highest_score:
             highest_bowler = []
+        # update highest score
+        highest_score = score
         # add to existing highest score bowler ID(s)
         highest_bowler.append(bowler)
     # next entry
