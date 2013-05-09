@@ -75,7 +75,7 @@ def BubbleSort(A):
                 A[i-1], A[i] = A[i], A[i-1]
                 swapped = True
             i += 1
-    passes -= 1
+				passes -= 1
     return A
 
 
